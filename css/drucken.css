@@ -1,0 +1,16 @@
+body {
+	font-family: Arial, serif;
+}
+
+.druckzeichen {
+	display: none;
+}
+
+.rec_title {
+	color: #FF9900;
+	font-size: 22px;
+}
+
+.rec_desc {
+	font-size: 14px;
+}
