@@ -1,0 +1,98 @@
+body {
+
+}
+
+.beschreibung {
+	font-family: Arial;
+}
+
+.rec_title {
+	display: block;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.rec_desc {
+	font-size: 16px;
+	text-align: left;
+	font-family: Arial;
+}
+
+.hover:hover {
+	color: #F78F36;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#menue h4 {
+	font-size: 16px;
+	font-family: Arial;
+	color: #000000;
+	font-weight: normal;
+	text-align: left;
+}
+
+#menuetext {
+	padding-left: 15px;
+}
+#menuetext h4 {
+	font-family: Arial;
+	font-size: 16px;
+}
+
+#inhalt {
+	float: right;
+	width: 715px;
+	margin-right: 10px;
+	margin-left: 15px;
+	min-height: 450px;
+}
+#inhalt h1 {
+	font-family: Arial;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+	margin-top: 10px;
+}
+#inhalt h2 {
+	font-size: 17px;
+	color: #000000;
+}
+#inhalt h4 {
+	text-align: left;
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial;
+	line-height: 5px;
+}
+
+#home h1 {
+	text-align: left;
+	color: rgb(255,153,0);
+	font-size: 28px;
+	font-family: Arial;
+}
+#home h2 {
+	text-align: left;
+	color: #000000;
+	font-size: 20px;
+	font-family: Arial;
+}
+#home h3 {
+	text-align: left;
+	color: rgb(0,0,0);
+	font-size: 16px;
+	font-weight: normal;
+	font-family: Arial;
+}
+#home h5 {
+	color: #FFFFFF;
+	font-size: 16px;
+	font-family: Arial;
+	font-variant: normal;
+	text-transform: none;
+	line-height: normal;
+	font-style: normal;
+	text-align: left;
+	display: inline;
+}

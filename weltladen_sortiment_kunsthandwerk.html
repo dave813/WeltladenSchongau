@@ -1,93 +1,142 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Weltladen Schongau</title>
-<link rel="stylesheet" type="text/css" href="design.css">
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-	<script type="text/javascript">
-		var aktopen = null;
-		function infoopen(openobj) {
-			if(aktopen != null) {
-				$(aktopen).slideToggle();
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Weltladen Schongau</title>
+		<link rel="stylesheet" href="css/design.css">
+		<link rel="stylesheet" href="css/fonts.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+		<script type="text/javascript">
+			var aktopen = null;
+			function infoopen(openobj) {
+				if (aktopen != null) {
+					$(aktopen).slideToggle();
+				}
+				if (openobj != aktopen) {
+					$(openobj).slideToggle();
+				}
+				if (openobj == aktopen) {
+					aktopen = null;
+				} else {
+					aktopen = openobj;
+				}
 			}
-			if(openobj != aktopen) {
-				$(openobj).slideToggle();
-			}
-			if(openobj == aktopen) { aktopen = null; } else { aktopen = openobj; }
-		}
-	</script>
-</head>
-<body>
-<div id="homepage">
-		<div id="überheader">
-        
-        
-        </div>
-    	<div id="header">
-        	<a href="index.html"><img src="img/header.jpg" /></a>
-        
-        </div>
-        
-        <div id="home">
-       	  <div id="menue">
-			  <a href="weltladen.html"><img src="weltladen/weltladen_bild.jpg"></a>
-			<div id="menuetext">
-			  <h4><a href="weltladen_bilder.html">&#9658 Bilder</a></h4>
-			  <h4><a href="weltladen_sortiment.html">&#9658 Sortiment
-              </a></h4>
-              <h4><a href="weltladen_rezepte.html">&#9658 Rezepte</a></h4>
-			  <p>&nbsp;</p>
-			  <h4><a href="index.html">&#9658 Home</a></h4>
-              <h4><a href="veranstaltungen.html">&#9658 Veranstaltungen</a></h4>
-              <h4><a href="verein.html">&#9658 Unser Verein</a></h4>
-              <h4><a target="_blank" href="http://www.entwicklungsland-bayern.de/eine-welt-stationen/">&#9658 Eine Welt-Station</a></h4>
-              <h4><a href="netzwerk.html">&#9658 Netzwerksarbeit</a>			</h4>
+		</script>
+	</head>
+	<body>
+		<div id="homepage">
+			<div id="überheader">
+
 			</div>
-       	  </div>
-       	  
-            <div id="inhalt">
- 			<a href="weltladen_sortiment.html"><h1>Sortiment &#9668;</h1></a>
-            <div id="produkte">
-            <div id="prodlist">
-            	<h2>Kunsthandwerk</h2>
-           	 	<h3><ul>
-            	<li onclick="infoopen('#prod1')">Schmuck</li>
-                <li onclick="infoopen('#prod2')">Lederwaren</li>
-                <li onclick="infoopen('#prod3')">Tücher und Schals</li>
-                <li onclick="infoopen('#prod4')">Heimtextilien</li>
-                <li onclick="infoopen('#prod5')">Korbwaren</li>
-                <li onclick="infoopen('#prod6')">Geschenkartikel</li>
-                <li onclick="infoopen('#prod7')">Papeterie</li>
-                <li onclick="infoopen('#prod8')">Musikinstrumente</li>
-                <li onclick="infoopen('#prod9')">Hängematten und Hängesitze</li>
-                <li onclick="infoopen('#prod10')">CDs</li>
-                <li onclick="infoopen('#prod11')">Kreuze</li><br />
-                usw.
-            	</ul></h3>
-            </div>	
-            <div id="beschreibungen">
-             	<div class="beschreibung" id="prod1">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod2">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod3">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod4">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod5">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod6">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod7">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod8">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod9">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod10">Hier werden bald Beschreibungen eingefügt.</div>
-             	<div class="beschreibung" id="prod11">Hier werden bald Beschreibungen eingefügt.</div>
-             	
-             </div>
-            </div>
-        </div>
-        
-  <div id="footer">
-       <a href="impressum.html"><img src="img/hp_fuss.jpg"></a>
-       
-       
-       </div> 
-</div>
-       
-       
+			<div id="header">
+				<a href="index.html"><img src="img/header.jpg" /></a>
+
+			</div>
+
+			<div id="home">
+				<div id="menue">
+					<a href="weltladen.html"><img src="weltladen/weltladen_bild.jpg"></a>
+					<div id="menuetext">
+						<h4><a href="weltladen_bilder.html">&#9658 Bilder</a></h4>
+						<h4><a href="weltladen_sortiment.html">&#9658 Sortiment </a></h4>
+						<h4><a href="weltladen_rezepte.html">&#9658 Rezepte</a></h4>
+						<p>
+							&nbsp;
+						</p>
+						<h4><a href="index.html">&#9658 Home</a></h4>
+						<h4><a href="veranstaltungen.html">&#9658 Veranstaltungen</a></h4>
+						<h4><a href="verein.html">&#9658 Unser Verein</a></h4>
+						<h4><a target="_blank" href="http://www.entwicklungsland-bayern.de/eine-welt-stationen/">&#9658 Eine Welt-Station</a></h4>
+						<h4><a href="netzwerk.html">&#9658 Netzwerksarbeit</a></h4>
+					</div>
+				</div>
+
+				<div id="inhalt">
+					<a href="weltladen_sortiment.html"><h1>Sortiment &#9668;</h1></a>
+					<div id="produkte">
+						<div id="prodlist">
+							<h2>Kunsthandwerk</h2>
+							<h3>
+							<ul>
+								<li onclick="infoopen('#prod1')">
+									Schmuck
+								</li>
+								<li onclick="infoopen('#prod2')">
+									Lederwaren
+								</li>
+								<li onclick="infoopen('#prod3')">
+									Tücher und Schals
+								</li>
+								<li onclick="infoopen('#prod4')">
+									Heimtextilien
+								</li>
+								<li onclick="infoopen('#prod5')">
+									Korbwaren
+								</li>
+								<li onclick="infoopen('#prod6')">
+									Geschenkartikel
+								</li>
+								<li onclick="infoopen('#prod7')">
+									Papeterie
+								</li>
+								<li onclick="infoopen('#prod8')">
+									Musikinstrumente
+								</li>
+								<li onclick="infoopen('#prod9')">
+									Hängematten und Hängesitze
+								</li>
+								<li onclick="infoopen('#prod10')">
+									CDs
+								</li>
+								<li onclick="infoopen('#prod11')">
+									Kreuze
+								</li>
+								<br />
+								usw.
+							</ul></h3>
+						</div>
+						<div id="beschreibungen">
+							<div class="beschreibung" id="prod1">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod2">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod3">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod4">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod5">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod6">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod7">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod8">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod9">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod10">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+							<div class="beschreibung" id="prod11">
+								Hier werden bald Beschreibungen eingefügt.
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div id="footer">
+					<a href="impressum.html"><img src="img/hp_fuss.jpg"></a>
+
+				</div>
+			</div>
+
