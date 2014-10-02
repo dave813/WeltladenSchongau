@@ -1,4 +1,0 @@
-AuthName "NameOfRealm"
-AuthType Basic
-AuthUserFile /Users/david/Kunden/Weltladen/Weltladen/Hp_Dave/.htpasswd
-require valid-user
