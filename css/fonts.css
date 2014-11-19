@@ -96,3 +96,9 @@ body {
 	text-align: left;
 	display: inline;
 }
+
+.aktion {
+	float:left;
+	
+	margin-top: 10px;
+}
