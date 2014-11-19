@@ -108,13 +108,26 @@ a:active {
 
 #bildergalerie {
 	text-align: left;
+	
+	
 }
-#bild {
-	width: 260px;
+.bild {
+	width: 270px;
+	margin: 5px;
+	float: left;
 }
-#bild:hover {
-	border: #FF9900 5px double;
+.bild img:hover {
+	border:double  #FF9900 5px ;
+	margin: 5px;
+	margin-left: 6px;
+	margin-bottom: 6px;
+	
 }
+.bild img {
+	width: 250px;
+	margin: 10px;
+}
+
 
 #nebenh2 {
 	font-weight: normal;
@@ -124,7 +137,11 @@ a:active {
 	margin-left: 5px;
 }
 
-#sortiment {
+.sortiment {
+	clear:both;
+}
+
+#sortunter {
 	float: left;
 	width: 150px;
 	margin: 30px;
@@ -133,11 +150,11 @@ a:active {
 	border: #000000 2px dashed;
 	display: block;
 }
-#sortiment:hover {
+#sortunter:hover {
 	border: #F78F36 2px solid;
 	display: block;
 }
-#sortiment h2 {
+#sortunterh2 {
 	text-align: center;
 	display: block;
 }
