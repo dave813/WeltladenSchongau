@@ -3,6 +3,10 @@ body {
 	text-align: center;
 }
 
+a img{
+border:0;
+}
+
 a:link {
 	color: rgb(0,0,0);
 	text-decoration: none;
@@ -34,6 +38,7 @@ a:active {
 	width: 920px;
 	height: 163px;
 	background-color: rgb(255,255,255);
+	border: white;
 }
 
 #home {
@@ -93,6 +98,10 @@ a:active {
 	width: 170px;
 	float: left;
 }
+
+
+
+.back:hover { }
 
 #karte {
 	position: relative;
