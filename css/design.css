@@ -3,8 +3,8 @@ body {
 	text-align: center;
 }
 
-a img{
-border:0;
+a img {
+	border: 0;
 }
 
 a:link {
@@ -48,7 +48,6 @@ a:active {
 	padding-bottom: 10px;
 	background-color: rgb(255,255,255);
 }
-
 
 #überheader {
 	height: 40px;
@@ -99,9 +98,8 @@ a:active {
 	float: left;
 }
 
-
-
-.back:hover { }
+.back:hover {
+}
 
 #karte {
 	position: relative;
@@ -117,8 +115,6 @@ a:active {
 
 #bildergalerie {
 	text-align: left;
-	
-	
 }
 .bild {
 	width: 270px;
@@ -126,16 +122,13 @@ a:active {
 	float: left;
 }
 .bild img:hover {
-	border:double  #FF9900 5px ;
+	border: double #FF9900 5px;
 	margin: 5px;
-
-	
 }
 .bild img {
 	width: 250px;
 	margin: 10px;
 }
-
 
 #nebenh2 {
 	font-weight: normal;
@@ -146,7 +139,7 @@ a:active {
 }
 
 .sortiment {
-	clear:both;
+	clear: both;
 }
 
 #sortunter {
@@ -155,7 +148,7 @@ a:active {
 	margin: 30px;
 	margin-left: 0px;
 	padding: 10px;
-	border: #000000 2px dashed;
+	border: #000000 2px solid;
 	display: block;
 }
 #sortunter:hover {
@@ -168,28 +161,24 @@ a:active {
 }
 
 #prodlist {
-	width: 250px;
-	margin: 30px;
+	width: 550px;
+	margin: 0px;
 	margin-left: 0px;
 	padding: 10px;
-	border: #000000 2px dashed;
 	display: block;
 	float: left;
+	
 }
-#prodlist ul li:hover {
-	cursor: pointer;
-	color: #F78F36;
-}
-.beschreibung {
-	display: none;
-	width: 350px;
+
+.links {
 	float: left;
-	margin-top: 30px;
-	background-color: #EAEAEA;
-	border-radius: 5px;
-	padding: 10px;
-	font-family: Arial;
 }
+
+.links img {
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
 .rec_main {
 	width: 600px;
 	padding-top: 8px;
@@ -197,7 +186,6 @@ a:active {
 }
 .rec_title {
 	display: block;
-
 }
 .rec_desc {
 	display: none;
@@ -225,3 +213,4 @@ a:active {
 .rec_text {
 	margin-top: 10px;
 }
+

@@ -55,7 +55,7 @@
                 <h4><a href="../veranstaltungen.html">&#9658 Veranstaltungen</a></h4>
                 <h4><a href="../verein.html">&#9658 Unser Verein</a></h4>
                 <h4><a target="_blank" href="http://www.entwicklungsland-bayern.de/eine-welt-stationen/">&#9658 Eine Welt-Station</a></h4>
-                <h4><a href="../netzwerk.html">&#9658 Netzwerksarbeit</a></h4>
+                <h4><a href="../netzwerk.html">&#9658 Netzwerkarbeit</a></h4>
               </h4>
             </div>
           </div>
