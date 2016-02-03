@@ -49,7 +49,8 @@ a:active {
 	background-color: rgb(255,255,255);
 }
 
-#überheader {
+#ü
+berheader {
 	height: 40px;
 	background-color: rgb(237,237,237);
 }
@@ -114,27 +115,33 @@ a:active {
 }
 
 #bildergalerie {
-	text-align: left;
+	float: left;
 }
+
+.galerie_left {
+	width: 310px;
+}
+
 .bild {
-	width: 270px;
+	width: 300px;
 	margin: 5px;
 	float: left;
 }
 .bild img:hover {
 	border: double #FF9900 5px;
-	margin: 5px;
+	margin: 0px;
 }
 .bild img {
-	width: 250px;
-	margin: 10px;
+	width: 290px;
+	margin: 5px;
 }
 
 #nebenh2 {
 	font-weight: normal;
 }
 
-#überschrift {
+#ü
+berschrift {
 	margin-left: 5px;
 }
 
@@ -167,7 +174,6 @@ a:active {
 	padding: 10px;
 	display: block;
 	float: left;
-	
 }
 
 .links {
