@@ -89,13 +89,16 @@ a:active {
 #footer {
 	clear: both;
 	width: 900px;
-	background-color: #FFFFFF height :51px;
+	background-color: #FFFFFF;
+	height: 51px;
+	margin-left:0px;
 }
 
 #menue {
 	background-color: #CCCCCC;
 	width: 170px;
 	float: left;
+	margin-top: 10px;
 }
 
 .back:hover {
