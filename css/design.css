@@ -49,8 +49,7 @@ a:active {
 	background-color: rgb(255,255,255);
 }
 
-#ü
-berheader {
+#ueberheader {
 	height: 40px;
 	background-color: rgb(237,237,237);
 }
@@ -120,6 +119,12 @@ berheader {
 
 .galerie_left {
 	width: 310px;
+	float: left;
+}
+
+.galerie_right {
+	width: 310px;
+	float: left;
 }
 
 .bild {
@@ -140,8 +145,7 @@ berheader {
 	font-weight: normal;
 }
 
-#ü
-berschrift {
+#ueberschrift {
 	margin-left: 5px;
 }
 
