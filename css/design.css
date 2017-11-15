@@ -185,12 +185,30 @@ a:active {
 
 .links {
 	float: left;
+	display:table;
+	width: 200px;
+	//border: 1px solid red;
 }
 
+
 .links img {
-	padding-right: 20px;
-	padding-top: 10px;
+	//border: 1px solid black;
+	display:table-cell;
+	//margin-top: 30px;
+	margin-right: 20px;
+	margin: 20px;
+	//padding-right: 20px;
+	//padding-top: 20px;
 }
+
+.logo {
+	display: table-cell;
+}
+
+.logo_row {
+	display: table-row;
+}
+
 
 .rec_main {
 	width: 600px;
