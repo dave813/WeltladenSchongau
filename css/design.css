@@ -40,6 +40,10 @@ a:active {
 	background-color: rgb(255,255,255);
 	border: white;
 }
+#header img {
+	width: 920px;
+	height: 180px;
+}
 
 #home {
 	width: 910px;
@@ -258,4 +262,3 @@ a:active {
 .rec_text {
 	margin-top: 10px;
 }
-
