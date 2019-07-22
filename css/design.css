@@ -58,36 +58,46 @@ a:active {
 	background-color: rgb(237,237,237);
 }
 
+.navi img{
+width: 150px;
+
+}
 #navi1 {
 	background-color: rgb(255,143,0);
-	width: 180px;
-	height: 200px;
+	width: 150px;
+
 	float: left;
 }
 #navi2 {
 	background-color: rgb(255,143,0);
-	width: 180px;
-	height: 200px;
+	width: 150px;
+
 	float: left;
 }
 #navi3 {
 	background-color: rgb(255,143,0);
-	width: 180px;
-	height: 200px;
+	width: 150px;
+
 	float: left;
 }
 #navi4 {
 	background-color: rgb(255,143,0);
-	width: 180px;
-	height: 200px;
+	width: 150px;
+
 	float: left;
 }
 #navi5 {
 	background-color: rgb(255,143,0);
-	width: 180px;
-	height: 200px;
+	width: 150px;
+
 	float: left;
 	margin-bottom: 60px;
+}
+#navi6 {
+	background-color: rgb(255,143,0);
+	width: 150px;
+
+	float: left;
 }
 
 #footer {
