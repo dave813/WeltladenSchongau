@@ -35,8 +35,22 @@
 
 				<div id="inhalt">
 					<h1>Archiv</h1>
+<div class="pdf_frame">
+
+
+					<script src='js/pdfobject.js'></script>
+<script>
+//Be sure your document contains an element with the CSS selector ".pdf_frame"
+var options = {
+   pdfOpenParams: { view: 'FitBV' }
+};
+
+PDFObject.embed("aktuelles/Karte_FairesFrühstück_macherin_2019.pdf", ".pdf_frame", options);
+</script>
+
+</div>
 					<h3>
-					<a href="aktuelles/Karte_FairesFrühstück_macherin_2019.pdf.pdf" target="_blank">Faires Frühstück</a>
+					<a href="aktuelles/Karte_FairesFrühstück_macherin_2019.pdf" target="_blank">Faires Frühstück</a>
 
 					<iframe class="pdf_frame" src="aktuelles/Karte_FairesFrühstück_macherin_2019.pdf"></iframe>
 					</h3>
